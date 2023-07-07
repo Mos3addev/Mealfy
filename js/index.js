@@ -131,11 +131,11 @@ function displayMealDetails(meal){
         tagsStr+= `<li class="my-3 mx-1 p-1 alert-success bg-white text-black rounded">${tags[i]}</li>`
     }
     const mealsHTML = `
-    <div class="col-4">
+    <div class="col-md-4">
       <img class="w-100" src="${meal.strMealThumb}" alt="">
       <h2 class="text-center">${meal.strMeal}</h2>
     </div>
-    <div class="col-8">
+    <div class="col-md-8">
       <h2>Instructions</h2>
       <p class="lh-sm">${meal.strInstructions}</p>
       <h5>Areas : <span>${meal.strArea}</span></h5>
