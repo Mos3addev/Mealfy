@@ -160,6 +160,7 @@ function displayMealDetails(meal){
     </div>
     `;
     Meals.innerHTML = mealsHTML;
+    window.scrollTo(0, 0);
 }
 //
 
