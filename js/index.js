@@ -102,6 +102,7 @@ function displayMeals(array){
         </div> 
     `)).join("");
     Meals.innerHTML = mealsHTML;
+    window.scrollTo(0, 0);
 }
 async function getMealDetails(mealID){
     $(".inner-loading-screen").fadeIn(300)
