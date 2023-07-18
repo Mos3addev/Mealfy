@@ -75,7 +75,7 @@ function showSearchInputs(){
     Meals.classList.replace("d-none", "d-flex");
     loadingContainer.classList.replace("d-none", "d-block");
     SearchContainer.innerHTML = `
-        <div class="row py-5">
+        <div class="row ps-5 py-5">
             <div class="col-md-6">
                 <input onkeyup="searchByName(this.value)" class="form-control bg-transparent border-top-0 border-start-0 border-end-0 text-white" type="text" placeholder="Search By Name">
             </div>
